@@ -1,0 +1,27 @@
+[project]
+name = "clarity-patterns"
+description = "Reusable Clarity smart contract patterns for Stacks blockchain"
+authors = ["serayd61"]
+telemetry = false
+cache_dir = ".cache"
+
+[contracts.ownable]
+path = "contracts/access/ownable.clar"
+
+[contracts.roles]
+path = "contracts/access/roles.clar"
+
+[contracts.sip010-template]
+path = "contracts/tokens/sip010-template.clar"
+
+[contracts.vault]
+path = "contracts/defi/vault.clar"
+
+[contracts.staking]
+path = "contracts/defi/staking.clar"
+
+[contracts.voting]
+path = "contracts/governance/voting.clar"
+
+[repl.analysis]
+passes = ["check_checker"]
