@@ -28,6 +28,7 @@ This library provides battle-tested, audited smart contract patterns that you ca
 - **Staking**: Stake and earn rewards
 - **Vesting**: Token vesting schedules
 - **Escrow**: Trustless escrow
+- **Price Oracle**: Decentralized price feeds (NEW)
 
 ### Governance
 

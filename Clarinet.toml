@@ -20,6 +20,9 @@ path = "contracts/defi/vault.clar"
 [contracts.staking]
 path = "contracts/defi/staking.clar"
 
+[contracts.price-oracle]
+path = "contracts/defi/price-oracle.clar"
+
 [contracts.voting]
 path = "contracts/governance/voting.clar"
 
